@@ -1,5 +1,5 @@
 const GROQ_API = "https://api.groq.com/openai/v1/chat/completions";
-const MODEL = "llama3-70b-8192";
+const MODEL = "llama-3.3-70b-versatile";
 
 export async function generateSnapshot(groqApiKey, { title, author, description, skills }) {
   const prompt = `You are a scientific workflow AI for K-Dense Web — a platform that turns research runs into reproducible, auditable capsules for peer review.
